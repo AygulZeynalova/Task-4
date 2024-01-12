@@ -80,8 +80,19 @@ namespace Task_4
                 Console.WriteLine("Invalid number.Please,try again");
             }
             #endregion
+
+
+            #region Task5
+            Student student = Student.GetStudentInfoFromUser();
+
+            Console.WriteLine($"Student name:{student.Name}");
+            Console.WriteLine($"Student surname:{student.Surname}");
+            Console.WriteLine($"Student age:{student.Age}");
+            Console.WriteLine($"Student speciality:{student.Speciality}");
+            Console.WriteLine($"Student Group Number:{student.GroupNo}"); 
+            #endregion
         }
-        //task 5 de 2 ferqli yol istifade eledim,ikiside error verdi.
+       
 
       
 
